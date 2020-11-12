@@ -1,0 +1,30 @@
+body{
+  background-color: #cccbd3;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  margin-top: 15vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  height: 65vh;
+  width: 35vw;
+  padding: 10px;
+  background-color: #a79bfa;
+  border-radius: 5px;
+}
+
+input{
+  height: 10vh;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button{
+  align-items: center;
+  height: 10vh;
+}
