@@ -9,13 +9,16 @@ body{
 main{
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 15vh;
+  flex-direction: column;
 }
 
 form{
   display: flex;
   flex-direction: column;
-  height: 65vh;
+  justify-content: center;
+  height: 35vh;
   width: 35vw;
   padding: 10px;
   background-color: #a79bfa;
@@ -27,6 +30,7 @@ input{
   width: 33vw;
   padding: 10px;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 button{
@@ -37,4 +41,5 @@ button{
 a{
   text-decoration: none;
   color: black;
+  font-size: 30px;
 }

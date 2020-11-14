@@ -4,15 +4,27 @@
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  align-content: center;
+}
+
+head{
+  display: none;
+}
+
+html,body{
+  margin:0px;
+}
+
+body{
+    background-color: #cccbd3;
+    flex-direction: column;
 }
 
 header{
-  flex-direction: row;
-  justify-content: flex-start;
-  background-color:#3f056f;
-  height: 30vh;
+  background-color:#8775fd;
+  height: 15vh;
   width: 100vw;
+  margin-top: 0;
 }
 
 .logo{
@@ -20,117 +32,35 @@ header{
 }
 
 #logo{
-  width: 27vh;
-  height: 25vh;
-}
-
-.bar{
-  flex-direction: row;
-}
-
-.nav{
-  align-items: flex-start;
-  margin: 2.5vh;
-  padding-right: 6vh;
-  border-right: solid;
-  border-color: black;
-  height: 20vh;
-  width: 60vw;
-}
-
-a{
-  color: black;
-  text-decoration: none;
-  font-size: 40px;
-}
-
-.pestaña{
-  flex-direction: row;
-  border-right: solid;
-  border-color: black;
-  margin-right: 5vh;
-  margin-top: 4vh;
-  padding-right: 2vh;
-  height: 5vh;
+  width: 18vh;
+  height: 15vh;
 }
 
 .title{
-  flex-direction: column;
-  margin-top: ;
-  margin-bottom: 5vh;
-  padding: 0;
-  font-size: 35px;
-  height: 8vh;
+  font-size: 100px;
+  font-family: cursive;
 }
 
-.form{
-  align-items: flex-end;
-  flex-direction: column;
-  margin-right: 2vw;
-  height: 30vh;
-  width: 30vw;
+.cuenta{
+  height: 5vh;
+  width: 10vw;
+  background-color: purple;
+  color: black;
+  margin: 10px;
 }
 
-#buscador{
-  flex-direction: row;
-  height: 50%;
+a{
+  text-decoration: none;
+  color: black;
 }
 
-#butt-busq{
-  height: 7vh;
-  width: 7vh;
-}
-
-#form-busq, textarea{
-  padding: 10px;
-  width: 22.2vw;
-  text-align: right;
-  font-size: 20px;
-}
-
-#user{
-  flex-direction: row;
-}
-
-#reg{
-  font-size:20px;
-}
-
-.product-list{
-  flex-flow: wrap;
-}
-
-.product{
-  margin: 20px;
-  background-color: #c5a0d4;
-}
-
-.spec{
-  text-align: left;
-}
-
-img{
-  height: 50vh;
-  width: 35vw;
-}
-
-h2{
-  width: 35vw;
-}
-
-button{
-  height: 10vh;
-  width: 15vw;
-  font-size: 30px;
-  background-color: #c88ba2;
-}
-
-button:hover {
-  background-color: #f071a1;
-}
+/* #ind{
+  height: 73vh;
+  width: 100vw;
+} */
 
 footer{
-  background-color: #3f056f;
-  height:15vh;
+  background-color:#8775fd;
+  height: 12vh;
   width: 100vw;
 }
